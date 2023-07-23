@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age calculator app</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <div class="page">
+    <div class="main-container">
+      <div class="input-container">
+        <div>
+          <div><p class="word-upon-input">Day</p></div>
+          <input type="text" id="day" placeholder="DD">
+          <p><span id="day-empty"></span><span id="day-invalid"></span></p>
+        </div>
+
+        <div>
+          <div><p class="word-upon-input">Month</p></div>
+          <input type="text" id="month" placeholder="MM">
+          <p><span id="month-empty"></span><span id="month-invalid"></span></p>
+        </div>
+
+        <div>
+          <div><p class="word-upon-input">Year</p></div>
+          <input type="text" id="year" placeholder="YYYY">
+          <p><span id="year-empty"></span><span id="year-invalid"></span></p>
+        </div>
+      </div>
+      <div class="row"><img src="./assets/images/icon-arrow.svg" alt="arrow" id="arrow"></div>
+      <div class="value-container">
+        <h1><span id="years-value">00</span> years</h1>
+        <h1><span id="months-value">00</span> months</h1>
+        <h1><span id="days-value">00</span> days</h1>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
